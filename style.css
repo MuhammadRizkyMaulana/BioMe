@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(#4bb2cc 2%, #c5e0f3 40%, #ffd700 115%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 105px;
+    
+}
+.profileImage {
+    width: 200px;
+    height: 210px;
+      
+}
+.profile h4 {
+    transform: translateY(-5px);
+}
+.profile h5 {
+    transform: translateY(-10px);
+}
+.typing {
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #333;
+    animation: typing 3s steps(20) infinite alternate, blink 1s infinite ;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      visibility: visible;
+    }
+    to {
+      width: 19.3%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      border-color: transparent;
+    }
+  }
+.biografi {
+    background: linear-gradient(#ffd700 0%, #ffd700 40%,#ffe23b 100%);
+    padding-bottom: 230px;  
+    justify-content: center;
+}
+.animated-text {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .animated-text.show {
+    opacity: 2;
+    transform: translateY(0);
+  }
+.jawab {
+    padding-bottom: 100px;  
+    justify-content: center;
+}
+.center {
+  text-align: center;
+}
+.col-md-4 {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.col-md-3 {
+    padding-bottom: 5px;
+}
+.contact {
+    padding-bottom: -100px;
+}
+.footer {
+    background-color: #ffd700;
+    padding-bottom: 5px;
+}
+.statistik-container {
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.statistik-bar {
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.statistik-level {
+  height: 100%;
+  width: 90%; /* Ganti nilai persen sesuai dengan level yang diinginkan */
+  background-color: #2ecc71;
+}
+
+.statistik-label {
+  text-align: center;
+}
+.statistik-level1 {
+  height: 100%;
+  width: 80%; /* Ganti nilai persen sesuai dengan level yang diinginkan */
+  background-color: #2ecc71;
+}
+.statistik-level2 {
+  height: 100%;
+  width: 75%; /* Ganti nilai persen sesuai dengan level yang diinginkan */
+  background-color: #2ecc71;
+}
+.statistik-level3 {
+  height: 100%;
+  width: 85%; /* Ganti nilai persen sesuai dengan level yang diinginkan */
+  background-color: #2ecc71;
+}
+.statistik-level4 {
+  height: 100%;
+  width: 88%; /* Ganti nilai persen sesuai dengan level yang diinginkan */
+  background-color: #2ecc71;
+}
